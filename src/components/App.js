@@ -9,7 +9,7 @@ class App extends React.Component {
             params: { query: term },
             headers: {
                 Authorization:
-                    'Client-ID f9070a66b9b572e04f166f7a7e2ffed0c8b679e594069d7a37c54902a0013b8a'
+                    'Client-ID asfd0a66b9b572e04f166f7a7e2ffed0c8b679e594069d7a37c54902a0013b8a'
             }
         });
         console.log(response.data.results)
